@@ -9,5 +9,5 @@ phases:
   post_build:
     commands:
        -echo "deploy lambda zip function .."
-       - aws lambda update-function-code  --function-name fun_22 --zip-file fileb://mydeploy.zip
+       - aws lambda update-function-code  --function-name fun_21 --zip-file fileb://mydeploy.zip
      
